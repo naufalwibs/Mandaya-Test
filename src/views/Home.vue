@@ -70,12 +70,12 @@ export default {
       maxPerPage: this.maxPerPage,
     });
   },
-  // updated() {
-  //   this.$store.dispatch("fetchUsers", {
-  //     currentPage: this.currentPage,
-  //     maxPerPage: this.maxPerPage,
-  //   });
-  // },
+  updated() {
+    this.$store.dispatch("fetchUsers", {
+      currentPage: this.currentPage,
+      maxPerPage: this.maxPerPage,
+    });
+  },
 };
 </script>
 

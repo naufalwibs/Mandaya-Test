@@ -18,26 +18,39 @@
                   {{ userById.name.last }}
                 </h5>
                 <div>
-                  <p class="p-title-sm">Location</p>
+                  <p class="p-title-sm">
+                    <i class="fas fa-map-marker-alt"></i> Location
+                  </p>
                   <p class="card-text">
-                    <i class="fas fa-map-marker-alt"></i>
                     {{ userById.location.street.name }},
                     {{ userById.location.street.number }}
                   </p>
                 </div>
                 <div>
                   <p class="card-text">
-                    <i class="far fa-flag"></i>
                     {{ userById.location.city }}, {{ userById.location.state }}
+                  </p>
+                  <p class="p-title-sm">
+                    <i class="far fa-flag"></i> Nationality
                   </p>
                   <p class="card-text">{{ userById.location.country }}</p>
                 </div>
-                <p class="card-text">
-                  {{ localeDate }}, {{ userById.dob.age }} years old.
-                </p>
-                <p class="card-text">
-                  {{ userById.email }}
-                </p>
+                <div>
+                  <p class="p-title-sm pt-2">
+                    <i class="far fa-calendar-alt"></i> Date of Birth
+                  </p>
+                  <p class="card-text">
+                    {{ localeDate }}, {{ userById.dob.age }} years old.
+                  </p>
+                </div>
+                <div>
+                  <p class="p-title-sm pt-2">
+                    <i class="far fa-envelope"></i> Email
+                  </p>
+                  <p class="card-text">
+                    {{ userById.email }}
+                  </p>
+                </div>
               </div>
               <div class="col-lg d-flex justify-content-start">
                 <button @click.prevent="toHome" class="btn btn-dark mx-3">
