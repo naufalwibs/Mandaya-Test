@@ -1,0 +1,19 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.th-profil-picture {
+  width: 200px;
+}
+
+.td-alignment {
+  padding-top: 18px;
+}
+
+.profile-picture {
+  border-radius: 10px;
+}
+
+.detail-profile {
+  border-radius: 10px;
+}

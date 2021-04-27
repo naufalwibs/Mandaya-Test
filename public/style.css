@@ -1,0 +1,39 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #2980b9;
+  background: -webkit-linear-gradient(to left, #ffffff, #6dd5fa, #2980b9);
+  background: linear-gradient(to left, #ffffff, #6dd5fa, #2980b9);
+}
+
+.detail-background {
+  background: #d3cce3;
+  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
+}
+
+.th-profil-picture {
+  width: 200px;
+}
+
+.td-alignment {
+  padding-top: 18px;
+}
+
+.profile-picture {
+  border-radius: 10px;
+}
+
+.detail-profile {
+  border-radius: 10px;
+}
+
+.scrollable {
+  overflow-y: auto;
+  max-height: 50vh;
+}
+
+.p-title-sm {
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-size: 0.8rem;
+}
